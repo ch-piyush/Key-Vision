@@ -1,6 +1,6 @@
-# test
+# Key-Vision
 
-An Electron application with React
+An Electron application with React and Nodejs that identifies the keystrokes typed anywhere in the users screen and displays it in the ElectronJs application.
 
 ## Recommended IDE Setup
 
