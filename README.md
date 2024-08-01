@@ -32,3 +32,7 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+
+https://github.com/user-attachments/assets/f604c790-dc08-4e02-bf6f-c80fd95c1a76
+
+
