@@ -1,0 +1,51 @@
+
+
+button {
+  -webkit-app-region: no-drag;
+  border-radius: 20px;
+  border: thin solid hsl(0, 2%, 24%);
+  background-color: hsl(0, 1%, 17%);
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+button:hover{
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* background-color: hsl(0, 4%, 70%);  */
+  transform: scale(1.1); 
+  color: rgb(234, 227, 227);
+}
+
+
+body.beforeClick {
+  margin: 0;
+  background-color: hsl(0, 0%, 100%); 
+  -webkit-app-region: drag;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body.afterClick {
+  margin: 0;
+  background-color: rgba(77, 76, 76, 0.6); 
+  -webkit-backdrop-filter: blur(1px); 
+  -webkit-app-region: drag;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body.afterClick .keystrokes {
+  color: white; 
+  opacity: 1; 
+  filter: none; 
+}
